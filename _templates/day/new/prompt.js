@@ -1,3 +1,4 @@
+require('dotenv').config();
 const process = require('process');
 
 module.exports = {
@@ -13,15 +14,34 @@ module.exports = {
         .prompt([
           {
             type: 'input',
+            name: 'year',
+            message: 'Year?',
+            initial: new Date().getFullYear(),
+          },
+          {
+            type: 'input',
             name: 'day',
             message: 'Which day should we add?',
             initial: `${new Date().getDate()}`.padStart(2, '0'),
           },
         ])
-        .then(({ day, extension }) => {
+        .then(async ({ day, year }) => {
+          const data = await fetch(
+            `https://adventofcode.com/${year}/day/${Number(day)}/input`,
+            {
+              method: 'get',
+              headers: {
+                'Content-Type': 'text/plain',
+                Cookie: `session=${process.env.AOC_SESSION}`,
+              },
+            },
+          );
+          const text = await data.text();
+
           resolve({
             day: day.padStart(2, '0'),
-            ext: extension === 'TypeScript' ? 'ts' : 'js',
+            year,
+            text,
           });
         });
     });

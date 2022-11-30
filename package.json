@@ -18,6 +18,7 @@
     "dev": "ts-node-dev --quiet --respawn lib/index.ts"
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
     "lodash": "^4.17.21",
     "ramda": "^0.28.0"
   }
