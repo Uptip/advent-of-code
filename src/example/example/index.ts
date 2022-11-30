@@ -3,7 +3,7 @@
 // https://adventofcode.com/2021/day/1
 
 import { pipe } from 'ramda';
-import { SolutionFunction } from '../types';
+import { SolutionFunction } from '../../types';
 
 // --- Part Zero ---
 // This function parses the input into a list of numbers

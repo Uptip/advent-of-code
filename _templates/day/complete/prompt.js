@@ -14,6 +14,12 @@ module.exports = {
         .prompt([
           {
             type: 'input',
+            name: 'year',
+            message: 'Year?',
+            initial: new Date().getFullYear(),
+          },
+          {
+            type: 'input',
             name: 'day',
             message: 'Which day did you complete?',
             initial: `${new Date().getDate()}`.padStart(2, '0'),
@@ -25,10 +31,11 @@ module.exports = {
             initial: 2,
           },
         ])
-        .then(({ day, stars }) => {
+        .then(({ day, stars, year }) => {
           resolve({
             day: day.padStart(2, '0'),
             stars: parseInt(stars),
+            year,
           });
         });
     });

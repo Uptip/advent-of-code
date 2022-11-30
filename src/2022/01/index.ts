@@ -1,6 +1,3 @@
----
-to: src/<%= year%>/<%= day%>/index.ts
----
 import { pipe } from 'ramda';
 import { SolutionFunction } from '../../types';
 
@@ -15,4 +12,3 @@ export const partOne: SolutionFunction = pipe(parseInput, input => {
 export const partTwo: SolutionFunction = pipe(parseInput, input => {
   return 0;
 });
-

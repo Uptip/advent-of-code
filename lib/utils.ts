@@ -2,6 +2,7 @@ import { promises as fs } from 'fs';
 import path from 'path';
 
 export const loadFile = async (fileName: string): Promise<string> => {
+  console.log(fileName);
   try {
     const data = await fs.readFile(
       path.join(__dirname, '..', 'src', fileName),
