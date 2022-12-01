@@ -87,6 +87,14 @@ My advent of code resolutions through the years
         </a>
       </td>
     </tr>
+    <tr>
+      <td>Day 11</td>
+      <td>
+        <a href="https://github.com/pathto/repo/tree/main/src/2015/11">
+          <img src="https://badgen.net/badge/11/%E2%98%85%E2%98%85/green" alt="" />
+        </a>
+      </td>
+    </tr>
   </tbody> <!-- 2015 -->
 </table>
 <!-- Auto completion:END -->
