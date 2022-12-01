@@ -2,7 +2,7 @@ import { max, orderBy, sum } from 'lodash';
 import { pipe } from 'ramda';
 import { SolutionFunction } from '../../types';
 
-export const parseInput = (input: string): any => {
+export const parseInput = (input: string): number[][] => {
   return input.split('\n\n').map(group => group.split('\n').map(Number));
 };
 
