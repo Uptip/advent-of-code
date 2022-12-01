@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@types/md5": "^2.3.2",
+    "all-permutations": "^1.0.2",
     "dotenv": "^16.0.3",
     "lodash": "^4.17.21",
     "md5": "^2.3.0",
