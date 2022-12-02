@@ -489,6 +489,14 @@ My advent of code resolutions through the years
         </a>
       </td>
     </tr>
+    <tr>
+      <td>Day 02</td>
+      <td>
+        <a href="https://github.com/pathto/repo/tree/main/src/2022/02">
+          <img src="https://badgen.net/badge/02/%E2%98%85%E2%98%85/green" alt="" />
+        </a>
+      </td>
+    </tr>
   </tbody> <!-- 2022 -->
 </table>
 <!-- Auto completion:END -->
