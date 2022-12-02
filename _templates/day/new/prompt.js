@@ -7,6 +7,9 @@ module.exports = {
       if (process.argv.includes('--day')) {
         return resolve({
           day: process.argv[process.argv.indexOf('--day') + 1].padStart(2, '0'),
+          year:
+            process.argv[process.argv.indexOf('--year') + 1] ||
+            new Date().getFullYear(),
         });
       }
 
