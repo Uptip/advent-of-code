@@ -1,4 +1,0 @@
----
-to: src/<%= year %>/<%= day %>/input.txt
----
-<%= text %>

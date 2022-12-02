@@ -1,5 +1,8 @@
 require('dotenv').config();
 const process = require('process');
+const axios = require('axios');
+const { promises: fs } = require('fs');
+const path = require('path');
 
 module.exports = {
   prompt: ({ prompter }) => {
@@ -29,22 +32,27 @@ module.exports = {
           },
         ])
         .then(async ({ day, year }) => {
-          const data = await fetch(
+          const { data } = await axios.get(
             `https://adventofcode.com/${year}/day/${Number(day)}/input`,
             {
-              method: 'get',
               headers: {
-                'Content-Type': 'text/plain',
+                'Content-Type': 'text/plain; charset=UTF-8',
                 Cookie: `session=${process.env.AOC_SESSION}`,
               },
             },
           );
-          const text = await data.text();
+
+          await fs.writeFile(
+            path.join(
+              __dirname,
+              `../../../src/${year}/${day.padStart(2, '0')}/input.txt`,
+            ),
+            data.trim(),
+          );
 
           resolve({
             day: day.padStart(2, '0'),
             year,
-            text,
           });
         });
     });

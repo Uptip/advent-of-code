@@ -15,4 +15,3 @@ export const partOne: SolutionFunction = pipe(parseInput, input => {
 export const partTwo: SolutionFunction = pipe(parseInput, input => {
   return 0;
 });
-
