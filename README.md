@@ -3,501 +3,626 @@
 My advent of code resolutions through the years
 
 
-## Completion
+## 2022
 
-### 2015
-<!-- Auto completion:START - Do not remove or modify this section -->
-<table>
-  <thead>
-    <tr>
-      <th>Day</th>
-      <th>Completion</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Day 01</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2015/01">
-          <img src="https://badgen.net/badge/01/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 02</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2015/02">
-          <img src="https://badgen.net/badge/02/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 03</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2015/03">
-          <img src="https://badgen.net/badge/03/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 04</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2015/04">
-          <img src="https://badgen.net/badge/04/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 05</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2015/05">
-          <img src="https://badgen.net/badge/05/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 06</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2015/06">
-          <img src="https://badgen.net/badge/06/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 08</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2015/08">
-          <img src="https://badgen.net/badge/08/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 09</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2015/09">
-          <img src="https://badgen.net/badge/09/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 10</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2015/10">
-          <img src="https://badgen.net/badge/10/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 11</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2015/11">
-          <img src="https://badgen.net/badge/11/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-  </tbody> <!-- 2015 -->
-</table>
-<!-- Auto completion:END -->
+<a href="src/2022/01.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2022&day=1">
+</a>
+<a href="src/2022/02.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2022&day=2">
+</a>
+<a href="src/2022/03.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2022&day=3">
+</a>
+<a href="src/2022/04.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2022&day=4">
+</a>
+<a href="src/2022/05.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2022&day=5">
+</a>
+<a href="src/2022/06.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2022&day=6">
+</a>
+<a href="src/2022/07.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2022&day=7">
+</a>
+<a href="src/2022/08.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2022&day=8">
+</a>
+<a href="src/2022/09.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2022&day=9">
+</a>
+<a href="src/2022/10.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2022&day=10">
+</a>
+<a href="src/2022/11.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2022&day=11">
+</a>
+<a href="src/2022/12.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2022&day=12">
+</a>
+<a href="src/2022/13.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2022&day=13">
+</a>
+<a href="src/2022/14.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2022&day=14">
+</a>
+<a href="src/2022/15.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2022&day=15">
+</a>
+<a href="src/2022/16.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2022&day=16">
+</a>
+<a href="src/2022/17.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2022&day=17">
+</a>
+<a href="src/2022/18.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2022&day=18">
+</a>
+<a href="src/2022/19.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2022&day=19">
+</a>
+<a href="src/2022/20.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2022&day=20">
+</a>
+<a href="src/2022/21.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2022&day=21">
+</a>
+<a href="src/2022/22.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2022&day=22">
+</a>
+<a href="src/2022/23.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2022&day=23">
+</a>
+<a href="src/2022/24.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2022&day=24">
+</a>
+<a href="src/2022/25.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2022&day=25">
+</a>
 
-### 2016
-<!-- Auto completion:START - Do not remove or modify this section -->
-<table>
-  <thead>
-    <tr>
-      <th>Day</th>
-      <th>Completion</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Day 01</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2016/01">
-          <img src="https://badgen.net/badge/01/%E2%98%85%E2%98%86/green" alt="" />
-        </a>
-      </td>
-    </tr>
-  </tbody> <!-- 2016 -->
-</table>
-<!-- Auto completion:END -->
+## 2021
 
-### 2017
-<!-- Auto completion:START - Do not remove or modify this section -->
-<table>
-  <thead>
-    <tr>
-      <th>Day</th>
-      <th>Completion</th>
-    </tr>
-  </thead>
-  <tbody>
-  </tbody> <!-- 2017 -->
-</table>
-<!-- Auto completion:END -->
+<a href="src/2021/01.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2021&day=1">
+</a>
+<a href="src/2021/02.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2021&day=2">
+</a>
+<a href="src/2021/03.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2021&day=3">
+</a>
+<a href="src/2021/04.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2021&day=4">
+</a>
+<a href="src/2021/05.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2021&day=5">
+</a>
+<a href="src/2021/06.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2021&day=6">
+</a>
+<a href="src/2021/07.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2021&day=7">
+</a>
+<a href="src/2021/08.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2021&day=8">
+</a>
+<a href="src/2021/09.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2021&day=9">
+</a>
+<a href="src/2021/10.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2021&day=10">
+</a>
+<a href="src/2021/11.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2021&day=11">
+</a>
+<a href="src/2021/12.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2021&day=12">
+</a>
+<a href="src/2021/13.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2021&day=13">
+</a>
+<a href="src/2021/14.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2021&day=14">
+</a>
+<a href="src/2021/15.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2021&day=15">
+</a>
+<a href="src/2021/16.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2021&day=16">
+</a>
+<a href="src/2021/17.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2021&day=17">
+</a>
+<a href="src/2021/18.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2021&day=18">
+</a>
+<a href="src/2021/19.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2021&day=19">
+</a>
+<a href="src/2021/20.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2021&day=20">
+</a>
+<a href="src/2021/21.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2021&day=21">
+</a>
+<a href="src/2021/22.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2021&day=22">
+</a>
+<a href="src/2021/23.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2021&day=23">
+</a>
+<a href="src/2021/24.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2021&day=24">
+</a>
+<a href="src/2021/25.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2021&day=25">
+</a>
 
-### 2018
-<!-- Auto completion:START - Do not remove or modify this section -->
-<table>
-  <thead>
-    <tr>
-      <th>Day</th>
-      <th>Completion</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Day 01</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2018/01">
-          <img src="https://badgen.net/badge/01/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 02</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2018/02">
-          <img src="https://badgen.net/badge/02/%E2%98%85%E2%98%86/green" alt="" />
-        </a>
-      </td>
-    </tr>
-  </tbody> <!-- 2018 -->
-</table>
-<!-- Auto completion:END -->
+## 2020
 
-### 2019
-<!-- Auto completion:START - Do not remove or modify this section -->
-<table>
-  <thead>
-    <tr>
-      <th>Day</th>
-      <th>Completion</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Day 01</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2019/01">
-          <img src="https://badgen.net/badge/01/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 02</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2019/02">
-          <img src="https://badgen.net/badge/02/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 03</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2019/03">
-          <img src="https://badgen.net/badge/03/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 04</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2019/04">
-          <img src="https://badgen.net/badge/04/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 05</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2019/05">
-          <img src="https://badgen.net/badge/05/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 06</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2019/06">
-          <img src="https://badgen.net/badge/06/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 07</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2019/07">
-          <img src="https://badgen.net/badge/07/%E2%98%85%E2%98%86/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 08</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2019/08">
-          <img src="https://badgen.net/badge/08/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-  </tbody> <!-- 2019 -->
-</table>
-<!-- Auto completion:END -->
+<a href="src/2020/01.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2020&day=1">
+</a>
+<a href="src/2020/02.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2020&day=2">
+</a>
+<a href="src/2020/03.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2020&day=3">
+</a>
+<a href="src/2020/04.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2020&day=4">
+</a>
+<a href="src/2020/05.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2020&day=5">
+</a>
+<a href="src/2020/06.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2020&day=6">
+</a>
+<a href="src/2020/07.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2020&day=7">
+</a>
+<a href="src/2020/08.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2020&day=8">
+</a>
+<a href="src/2020/09.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2020&day=9">
+</a>
+<a href="src/2020/10.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2020&day=10">
+</a>
+<a href="src/2020/11.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2020&day=11">
+</a>
+<a href="src/2020/12.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2020&day=12">
+</a>
+<a href="src/2020/13.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2020&day=13">
+</a>
+<a href="src/2020/14.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2020&day=14">
+</a>
+<a href="src/2020/15.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2020&day=15">
+</a>
+<a href="src/2020/16.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2020&day=16">
+</a>
+<a href="src/2020/17.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2020&day=17">
+</a>
+<a href="src/2020/18.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2020&day=18">
+</a>
+<a href="src/2020/19.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2020&day=19">
+</a>
+<a href="src/2020/20.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2020&day=20">
+</a>
+<a href="src/2020/21.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2020&day=21">
+</a>
+<a href="src/2020/22.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2020&day=22">
+</a>
+<a href="src/2020/23.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2020&day=23">
+</a>
+<a href="src/2020/24.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2020&day=24">
+</a>
+<a href="src/2020/25.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2020&day=25">
+</a>
 
-### 2020
-<!-- Auto completion:START - Do not remove or modify this section -->
-<table>
-  <thead>
-    <tr>
-      <th>Day</th>
-      <th>Completion</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Day 01</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2020/01">
-          <img src="https://badgen.net/badge/01/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 02</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2020/02">
-          <img src="https://badgen.net/badge/02/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 03</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2020/03">
-          <img src="https://badgen.net/badge/03/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 04</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2020/04">
-          <img src="https://badgen.net/badge/04/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 05</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2020/05">
-          <img src="https://badgen.net/badge/05/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 06</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2020/06">
-          <img src="https://badgen.net/badge/06/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 07</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2020/07">
-          <img src="https://badgen.net/badge/07/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 08</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2020/08">
-          <img src="https://badgen.net/badge/08/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 09</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2020/09">
-          <img src="https://badgen.net/badge/09/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 10</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2020/10">
-          <img src="https://badgen.net/badge/10/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 11</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2020/11">
-          <img src="https://badgen.net/badge/11/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 12</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2020/12">
-          <img src="https://badgen.net/badge/12/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 13</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2020/13">
-          <img src="https://badgen.net/badge/13/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 14</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2020/14">
-          <img src="https://badgen.net/badge/14/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 15</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2020/15">
-          <img src="https://badgen.net/badge/15/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 16</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2020/16">
-          <img src="https://badgen.net/badge/16/%E2%98%85%E2%98%86/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 18</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2020/18">
-          <img src="https://badgen.net/badge/18/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 19</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2020/19">
-          <img src="https://badgen.net/badge/19/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-  </tbody> <!-- 2020 -->
-</table>
-<!-- Auto completion:END -->
+## 2019
 
-### 2021
-<!-- Auto completion:START - Do not remove or modify this section -->
-<table>
-  <thead>
-    <tr>
-      <th>Day</th>
-      <th>Completion</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Day 01</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2021/01">
-          <img src="https://badgen.net/badge/01/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 02</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2021/02">
-          <img src="https://badgen.net/badge/02/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 03</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2021/03">
-          <img src="https://badgen.net/badge/03/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 04</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2021/04">
-          <img src="https://badgen.net/badge/04/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 05</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2021/05">
-          <img src="https://badgen.net/badge/05/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 06</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2021/06">
-          <img src="https://badgen.net/badge/06/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 07</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2021/07">
-          <img src="https://badgen.net/badge/07/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-  </tbody> <!-- 2021 -->
-</table>
-<!-- Auto completion:END -->
+<a href="src/2019/01.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2019&day=1">
+</a>
+<a href="src/2019/02.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2019&day=2">
+</a>
+<a href="src/2019/03.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2019&day=3">
+</a>
+<a href="src/2019/04.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2019&day=4">
+</a>
+<a href="src/2019/05.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2019&day=5">
+</a>
+<a href="src/2019/06.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2019&day=6">
+</a>
+<a href="src/2019/07.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2019&day=7">
+</a>
+<a href="src/2019/08.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2019&day=8">
+</a>
+<a href="src/2019/09.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2019&day=9">
+</a>
+<a href="src/2019/10.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2019&day=10">
+</a>
+<a href="src/2019/11.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2019&day=11">
+</a>
+<a href="src/2019/12.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2019&day=12">
+</a>
+<a href="src/2019/13.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2019&day=13">
+</a>
+<a href="src/2019/14.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2019&day=14">
+</a>
+<a href="src/2019/15.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2019&day=15">
+</a>
+<a href="src/2019/16.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2019&day=16">
+</a>
+<a href="src/2019/17.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2019&day=17">
+</a>
+<a href="src/2019/18.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2019&day=18">
+</a>
+<a href="src/2019/19.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2019&day=19">
+</a>
+<a href="src/2019/20.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2019&day=20">
+</a>
+<a href="src/2019/21.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2019&day=21">
+</a>
+<a href="src/2019/22.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2019&day=22">
+</a>
+<a href="src/2019/23.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2019&day=23">
+</a>
+<a href="src/2019/24.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2019&day=24">
+</a>
+<a href="src/2019/25.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2019&day=25">
+</a>
 
-### 2022
-<!-- Auto completion:START - Do not remove or modify this section -->
-<table>
-  <thead>
-    <tr>
-      <th>Day</th>
-      <th>Completion</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Day 01</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2022/01">
-          <img src="https://badgen.net/badge/01/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>Day 02</td>
-      <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/2022/02">
-          <img src="https://badgen.net/badge/02/%E2%98%85%E2%98%85/green" alt="" />
-        </a>
-      </td>
-    </tr>
-  </tbody> <!-- 2022 -->
-</table>
-<!-- Auto completion:END -->
+## 2018
 
+<a href="src/2018/01.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2018&day=1">
+</a>
+<a href="src/2018/02.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2018&day=2">
+</a>
+<a href="src/2018/03.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2018&day=3">
+</a>
+<a href="src/2018/04.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2018&day=4">
+</a>
+<a href="src/2018/05.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2018&day=5">
+</a>
+<a href="src/2018/06.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2018&day=6">
+</a>
+<a href="src/2018/07.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2018&day=7">
+</a>
+<a href="src/2018/08.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2018&day=8">
+</a>
+<a href="src/2018/09.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2018&day=9">
+</a>
+<a href="src/2018/10.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2018&day=10">
+</a>
+<a href="src/2018/11.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2018&day=11">
+</a>
+<a href="src/2018/12.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2018&day=12">
+</a>
+<a href="src/2018/13.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2018&day=13">
+</a>
+<a href="src/2018/14.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2018&day=14">
+</a>
+<a href="src/2018/15.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2018&day=15">
+</a>
+<a href="src/2018/16.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2018&day=16">
+</a>
+<a href="src/2018/17.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2018&day=17">
+</a>
+<a href="src/2018/18.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2018&day=18">
+</a>
+<a href="src/2018/19.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2018&day=19">
+</a>
+<a href="src/2018/20.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2018&day=20">
+</a>
+<a href="src/2018/21.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2018&day=21">
+</a>
+<a href="src/2018/22.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2018&day=22">
+</a>
+<a href="src/2018/23.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2018&day=23">
+</a>
+<a href="src/2018/24.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2018&day=24">
+</a>
+<a href="src/2018/25.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2018&day=25">
+</a>
+
+## 2017
+
+<a href="src/2017/01.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2017&day=1">
+</a>
+<a href="src/2017/02.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2017&day=2">
+</a>
+<a href="src/2017/03.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2017&day=3">
+</a>
+<a href="src/2017/04.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2017&day=4">
+</a>
+<a href="src/2017/05.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2017&day=5">
+</a>
+<a href="src/2017/06.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2017&day=6">
+</a>
+<a href="src/2017/07.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2017&day=7">
+</a>
+<a href="src/2017/08.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2017&day=8">
+</a>
+<a href="src/2017/09.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2017&day=9">
+</a>
+<a href="src/2017/10.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2017&day=10">
+</a>
+<a href="src/2017/11.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2017&day=11">
+</a>
+<a href="src/2017/12.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2017&day=12">
+</a>
+<a href="src/2017/13.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2017&day=13">
+</a>
+<a href="src/2017/14.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2017&day=14">
+</a>
+<a href="src/2017/15.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2017&day=15">
+</a>
+<a href="src/2017/16.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2017&day=16">
+</a>
+<a href="src/2017/17.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2017&day=17">
+</a>
+<a href="src/2017/18.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2017&day=18">
+</a>
+<a href="src/2017/19.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2017&day=19">
+</a>
+<a href="src/2017/20.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2017&day=20">
+</a>
+<a href="src/2017/21.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2017&day=21">
+</a>
+<a href="src/2017/22.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2017&day=22">
+</a>
+<a href="src/2017/23.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2017&day=23">
+</a>
+<a href="src/2017/24.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2017&day=24">
+</a>
+<a href="src/2017/25.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2017&day=25">
+</a>
+
+## 2016
+
+<a href="src/2016/01.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2016&day=1">
+</a>
+<a href="src/2016/02.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2016&day=2">
+</a>
+<a href="src/2016/03.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2016&day=3">
+</a>
+<a href="src/2016/04.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2016&day=4">
+</a>
+<a href="src/2016/05.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2016&day=5">
+</a>
+<a href="src/2016/06.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2016&day=6">
+</a>
+<a href="src/2016/07.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2016&day=7">
+</a>
+<a href="src/2016/08.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2016&day=8">
+</a>
+<a href="src/2016/09.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2016&day=9">
+</a>
+<a href="src/2016/10.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2016&day=10">
+</a>
+<a href="src/2016/11.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2016&day=11">
+</a>
+<a href="src/2016/12.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2016&day=12">
+</a>
+<a href="src/2016/13.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2016&day=13">
+</a>
+<a href="src/2016/14.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2016&day=14">
+</a>
+<a href="src/2016/15.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2016&day=15">
+</a>
+<a href="src/2016/16.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2016&day=16">
+</a>
+<a href="src/2016/17.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2016&day=17">
+</a>
+<a href="src/2016/18.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2016&day=18">
+</a>
+<a href="src/2016/19.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2016&day=19">
+</a>
+<a href="src/2016/20.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2016&day=20">
+</a>
+<a href="src/2016/21.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2016&day=21">
+</a>
+<a href="src/2016/22.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2016&day=22">
+</a>
+<a href="src/2016/23.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2016&day=23">
+</a>
+<a href="src/2016/24.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2016&day=24">
+</a>
+<a href="src/2016/25.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2016&day=25">
+</a>
+
+## 2015
+
+<a href="src/2015/01.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2015&day=1">
+</a>
+<a href="src/2015/02.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2015&day=2">
+</a>
+<a href="src/2015/03.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2015&day=3">
+</a>
+<a href="src/2015/04.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2015&day=4">
+</a>
+<a href="src/2015/05.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2015&day=5">
+</a>
+<a href="src/2015/06.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2015&day=6">
+</a>
+<a href="src/2015/07.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2015&day=7">
+</a>
+<a href="src/2015/08.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2015&day=8">
+</a>
+<a href="src/2015/09.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2015&day=9">
+</a>
+<a href="src/2015/10.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2015&day=10">
+</a>
+<a href="src/2015/11.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2015&day=11">
+</a>
+<a href="src/2015/12.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2015&day=12">
+</a>
+<a href="src/2015/13.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2015&day=13">
+</a>
+<a href="src/2015/14.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2015&day=14">
+</a>
+<a href="src/2015/15.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2015&day=15">
+</a>
+<a href="src/2015/16.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2015&day=16">
+</a>
+<a href="src/2015/17.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2015&day=17">
+</a>
+<a href="src/2015/18.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2015&day=18">
+</a>
+<a href="src/2015/19.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2015&day=19">
+</a>
+<a href="src/2015/20.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2015&day=20">
+</a>
+<a href="src/2015/21.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2015&day=21">
+</a>
+<a href="src/2015/22.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2015&day=22">
+</a>
+<a href="src/2015/23.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2015&day=23">
+</a>
+<a href="src/2015/24.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2015&day=24">
+</a>
+<a href="src/2015/25.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2015&day=25">
+</a>
