@@ -1,325 +1,262 @@
 {
-  "2015": [
-    {
-      "date": 12,
+  "2015": {
+    "12": {
       "partOneTime": ">24h"
     },
-    {
-      "date": 11,
+    "11": {
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
     },
-    {
-      "date": 10,
+    "10": {
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
     },
-    {
-      "date": 9,
+    "9": {
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
     },
-    {
-      "date": 8,
+    "8": {
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
     },
-    {
-      "date": 6,
+    "6": {
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
     },
-    {
-      "date": 5,
+    "5": {
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
     },
-    {
-      "date": 4,
+    "4": {
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
     },
-    {
-      "date": 3,
+    "3": {
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
     },
-    {
-      "date": 2,
+    "2": {
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
     },
-    {
-      "date": 1,
+    "1": {
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
     }
-  ],
-  "2016": [
-    {
-      "date": 1,
+  },
+  "2016": {
+    "1": {
       "partOneTime": ">24h"
     }
-  ],
-  "2017": [],
-  "2018": [
-    {
-      "date": 2,
+  },
+  "2017": {},
+  "2018": {
+    "2": {
       "partOneTime": ">24h"
     },
-    {
-      "date": 1,
+    "1": {
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
     }
-  ],
-  "2019": [
-    {
-      "date": 8,
+  },
+  "2019": {
+    "8": {
       "partOneTime": "02:59:08",
       "partTwoTime": "03:16:27"
     },
-    {
-      "date": 7,
+    "7": {
       "partOneTime": "18:51:22"
     },
-    {
-      "date": 6,
+    "6": {
       "partOneTime": "02:03:16",
       "partTwoTime": "02:18:03"
     },
-    {
-      "date": 5,
+    "5": {
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
     },
-    {
-      "date": 4,
+    "4": {
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
     },
-    {
-      "date": 3,
+    "3": {
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
     },
-    {
-      "date": 2,
+    "2": {
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
     },
-    {
-      "date": 1,
+    "1": {
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
     }
-  ],
-  "2020": [
-    {
-      "date": 19,
+  },
+  "2020": {
+    "19": {
       "partOneTime": "00:48:38",
       "partTwoTime": "00:49:08"
     },
-    {
-      "date": 18,
+    "18": {
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
     },
-    {
-      "date": 16,
+    "16": {
       "partOneTime": "00:56:31"
     },
-    {
-      "date": 15,
+    "15": {
       "partOneTime": "01:32:35",
       "partTwoTime": "02:07:21"
     },
-    {
-      "date": 14,
+    "14": {
       "partOneTime": "01:40:13",
       "partTwoTime": ">24h"
     },
-    {
-      "date": 13,
+    "13": {
       "partOneTime": "16:40:04",
       "partTwoTime": "17:45:26"
     },
-    {
-      "date": 12,
+    "12": {
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
     },
-    {
-      "date": 11,
+    "11": {
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
     },
-    {
-      "date": 10,
+    "10": {
       "partOneTime": "01:40:01",
       "partTwoTime": ">24h"
     },
-    {
-      "date": 9,
+    "9": {
       "partOneTime": "14:22:22",
       "partTwoTime": "14:47:22"
     },
-    {
-      "date": 8,
+    "8": {
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
     },
-    {
-      "date": 7,
+    "7": {
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
     },
-    {
-      "date": 6,
+    "6": {
       "partOneTime": "02:23:54",
       "partTwoTime": "03:12:13"
     },
-    {
-      "date": 5,
+    "5": {
       "partOneTime": "02:52:29",
       "partTwoTime": "03:01:37"
     },
-    {
-      "date": 4,
+    "4": {
       "partOneTime": "00:14:57",
       "partTwoTime": "01:17:26"
     },
-    {
-      "date": 3,
+    "3": {
       "partOneTime": "00:11:18",
       "partTwoTime": "00:14:56"
     },
-    {
-      "date": 2,
+    "2": {
       "partOneTime": "01:10:34",
       "partTwoTime": "01:24:31"
     },
-    {
-      "date": 1,
+    "1": {
       "partOneTime": "10:38:43",
       "partTwoTime": "10:41:56"
     }
-  ],
-  "2021": [
-    {
-      "date": 22,
+  },
+  "2021": {
+    "22": {
       "partOneTime": "15:14:36"
     },
-    {
-      "date": 21,
+    "21": {
       "partOneTime": ">24h"
     },
-    {
-      "date": 20,
+    "20": {
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
     },
-    {
-      "date": 18,
+    "18": {
       "partOneTime": "04:46:29",
       "partTwoTime": "14:14:41"
     },
-    {
-      "date": 17,
+    "17": {
       "partOneTime": "00:44:33",
       "partTwoTime": "00:50:32"
     },
-    {
-      "date": 16,
+    "16": {
       "partOneTime": "01:17:13",
       "partTwoTime": ">24h"
     },
-    {
-      "date": 15,
+    "15": {
       "partOneTime": "03:09:31",
       "partTwoTime": "03:34:43"
     },
-    {
-      "date": 14,
+    "14": {
       "partOneTime": "00:22:22",
       "partTwoTime": "00:29:40"
     },
-    {
-      "date": 13,
+    "13": {
       "partOneTime": "01:01:13",
       "partTwoTime": "01:06:26"
     },
-    {
-      "date": 12,
+    "12": {
       "partOneTime": "00:14:35",
       "partTwoTime": "00:19:49"
     },
-    {
-      "date": 11,
+    "11": {
       "partOneTime": "00:18:07",
       "partTwoTime": "00:20:36"
     },
-    {
-      "date": 10,
+    "10": {
       "partOneTime": "00:21:23",
       "partTwoTime": "00:24:36"
     },
-    {
-      "date": 9,
+    "9": {
       "partOneTime": "00:11:00",
       "partTwoTime": "00:34:05"
     },
-    {
-      "date": 8,
+    "8": {
       "partOneTime": "00:19:51",
       "partTwoTime": "03:48:11"
     },
-    {
-      "date": 7,
+    "7": {
       "partOneTime": "00:05:52",
       "partTwoTime": "00:07:52"
     },
-    {
-      "date": 6,
+    "6": {
       "partOneTime": "00:22:00",
       "partTwoTime": "00:36:36"
     },
-    {
-      "date": 5,
+    "5": {
       "partOneTime": "00:26:58",
       "partTwoTime": "00:41:35"
     },
-    {
-      "date": 4,
+    "4": {
       "partOneTime": "01:00:48",
       "partTwoTime": "01:21:57"
     },
-    {
-      "date": 3,
+    "3": {
       "partOneTime": "00:17:09",
       "partTwoTime": "00:24:32"
     },
-    {
-      "date": 2,
+    "2": {
       "partOneTime": "00:06:00",
       "partTwoTime": "00:11:05"
     },
-    {
-      "date": 1,
+    "1": {
       "partOneTime": "00:10:38",
       "partTwoTime": "00:13:50"
     }
-  ],
-  "2022": [
-    {
-      "date": 2,
+  },
+  "2022": {
+    "2": {
       "partOneTime": "00:08:50",
       "partTwoTime": "00:12:35"
     },
-    {
-      "date": 1,
+    "1": {
       "partOneTime": "00:03:19",
       "partTwoTime": "00:05:18"
     }
-  ]
+  }
 }

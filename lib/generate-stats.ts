@@ -1,5 +1,5 @@
 require('dotenv').config();
-import rp from 'request-promise';
+import request from 'request-promise';
 import path from 'path';
 import { promises as fs } from 'fs';
 
@@ -33,17 +33,18 @@ const parseInput = (input: string) =>
         partOneTime,
         partTwoTime: partTwoTime === '-' ? undefined : partTwoTime,
       };
-    });
+    })
+    .reduce((acc, { date, ...rest }) => ({ ...acc, [date]: rest }), {});
 
 const run = async () => {
-  const data2015 = await rp(options(2015));
-  const data2016 = await rp(options(2016));
-  const data2017 = await rp(options(2017));
-  const data2018 = await rp(options(2018));
-  const data2019 = await rp(options(2019));
-  const data2020 = await rp(options(2020));
-  const data2021 = await rp(options(2021));
-  const data2022 = await rp(options(2022));
+  const data2015 = await request(options(2015));
+  const data2016 = await request(options(2016));
+  const data2017 = await request(options(2017));
+  const data2018 = await request(options(2018));
+  const data2019 = await request(options(2019));
+  const data2020 = await request(options(2020));
+  const data2021 = await request(options(2021));
+  const data2022 = await request(options(2022));
 
   await fs.writeFile(
     path.join(__dirname, '../data/stats.json'),
