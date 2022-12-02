@@ -1,6 +1,7 @@
 import { pipe } from 'ramda';
 import { SolutionFunction } from '../../types';
 import { max } from 'lodash';
+import { range } from '../../2020/utils/index';
 
 type ReindeerStats = {
   velocity: number;
@@ -34,17 +35,17 @@ const calculateTravelledDistance = ({
   totalTime,
 }: ReindeerStats & { totalTime: number }) => {
   const slotTime = movingTime + restingTime;
-  const movingTimeSlotsCount = Math.ceil(totalTime / slotTime);
-
+  const completeMovingTimeSlotsCount = Math.floor(totalTime / slotTime);
+  const remainingMovingTime = Math.min(
+    totalTime - completeMovingTimeSlotsCount * slotTime,
+    movingTime,
+  );
   const totalMovingTime =
-    totalTime - (movingTimeSlotsCount - 1) * totalTime > movingTime
-      ? movingTimeSlotsCount * movingTime
-      : 0;
-
+    completeMovingTimeSlotsCount * movingTime + remainingMovingTime;
   return totalMovingTime * velocity;
 };
 
-export const partOne: SolutionFunction | any = pipe(
+export const partOne: SolutionFunction = pipe(
   parseInput,
   input =>
     Object.keys(input).map(reindeer =>
@@ -53,6 +54,33 @@ export const partOne: SolutionFunction | any = pipe(
   max,
 );
 
-export const partTwo: SolutionFunction = pipe(parseInput, input => {
-  return 0;
-});
+export const partTwo: SolutionFunction | any = pipe(
+  parseInput,
+  input =>
+    range(2503)
+      .map(i => i + 1)
+      .map(totalTime =>
+        Object.keys(input).map(reindeer => ({
+          reindeer,
+          distance: calculateTravelledDistance({
+            ...input[reindeer],
+            totalTime,
+          }),
+          totalTime,
+        })),
+      )
+      .reduce((totalScores, secondScores) => {
+        const sortedSecondScores = secondScores.sort(
+          (a, b) => b.distance - a.distance,
+        );
+        const secondWinners = secondScores
+          .filter(({ distance }) => distance === sortedSecondScores[0].distance)
+          .map(({ reindeer }) => reindeer);
+        secondWinners.forEach(reindeer => {
+          totalScores[reindeer] = (totalScores[reindeer] ?? 0) + 1;
+        });
+        return totalScores;
+      }, {}),
+  (scores: { [reindeer: string]: number }) =>
+    Object.values(scores).sort((a, b) => b - a)[0],
+);
