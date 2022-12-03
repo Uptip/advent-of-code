@@ -3,9 +3,7 @@ to: src/<%= year%>/<%= day%>/index.ts
 ---
 import { pipe } from 'ramda';
 
-export const parseInput = (input: string): any => {
-  return input;
-};
+export const parseInput = (input: string) => input.split('\n');
 
 export const partOne = pipe(parseInput, input => {
   return 0;
