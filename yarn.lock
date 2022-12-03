@@ -751,6 +751,11 @@ jake@^10.8.5:
     filelist "^1.0.1"
     minimatch "^3.0.4"
 
+js-combinatorics@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/js-combinatorics/-/js-combinatorics-2.1.1.tgz#00d1363c125f2d42074eeaf99ac10bef2b5e9e90"
+  integrity sha512-jKLV+oIyz0TCr7GBhyuOwngntu1rCxSO+lbVTS232HYowA13CTk0RSmPq6nuXGLFaq2ZWLDQqEwJ6LCDnYR0+A==
+
 js-yaml@^3.13.1:
   version "3.14.1"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.14.1.tgz#dae812fdb3825fa306609a8717383c50c36a0537"
