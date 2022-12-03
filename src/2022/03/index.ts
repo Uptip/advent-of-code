@@ -1,41 +1,26 @@
 import { pipe } from 'ramda';
-import { SolutionFunction } from '../../types';
-import { chunk, sum } from 'lodash';
+import { chunk, intersection, sum } from 'lodash';
 
 export const parseInput = (input: string): string[][] =>
-  input
-    .split('\n')
-    .map(rucksack =>
-      chunk(rucksack, rucksack.length / 2).map(row => row.join('')),
-    );
+  input.split('\n').map(line => line.split(''));
 
-const scores = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+const scores = '-abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
-export const partOne: SolutionFunction = pipe(
+export const partOne = pipe(
   parseInput,
   input =>
     input
-      .map(compartments =>
-        compartments[0]
-          .split('')
-          .find(letter => compartments[1].includes(letter)),
-      )
-      .map(letter => scores.indexOf(letter) + 1),
+      .map(rucksack => chunk(rucksack, rucksack.length / 2))
+      .map(compartments => intersection(...compartments)[0])
+      .map(letter => scores.indexOf(letter)),
   sum,
 );
 
-export const partTwo: SolutionFunction = pipe(
+export const partTwo = pipe(
   parseInput,
   input =>
     chunk(input, 3)
-      .map(group => {
-        const elves = group.map(elf => elf.join(''));
-        return elves[0]
-          .split('')
-          .find(
-            letter => elves[1].includes(letter) && elves[2].includes(letter),
-          );
-      })
-      .map(letter => scores.indexOf(letter) + 1),
+      .map(group => intersection(...group)[0])
+      .map(letter => scores.indexOf(letter)),
   sum,
 );
