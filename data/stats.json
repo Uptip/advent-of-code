@@ -219,6 +219,10 @@
     }
   },
   "2015": {
+    "16": {
+      "partOneTime": ">24h",
+      "partTwoTime": ">24h"
+    },
     "14": {
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
