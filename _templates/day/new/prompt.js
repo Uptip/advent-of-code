@@ -42,6 +42,14 @@ module.exports = {
             },
           );
 
+          try {
+            await fs.mkdir(
+              path.join(
+                __dirname,
+                `../../../src/${year}/${day.padStart(2, '0')}`,
+              ),
+            );
+          } catch (err) {}
           await fs.writeFile(
             path.join(
               __dirname,
