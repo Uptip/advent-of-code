@@ -1,15 +1,25 @@
 import { pipe } from 'ramda';
-import { SolutionFunction } from '../../types';
 
-export const parseInput = (input: string): any => {
-  return input;
-};
+export const parseInput = (input: string): number[] =>
+  input.split('\n').filter(Boolean).map(Number);
 
-export const partOne: SolutionFunction = pipe(parseInput, input => {
-  return 0;
-});
+export const partOne = pipe(parseInput, input =>
+  input.reduce(
+    (acc, _, index) =>
+      acc + Number(index >= 1 && input[index] > input[index - 1]),
+    0,
+  ),
+);
 
-export const partTwo: SolutionFunction = pipe(parseInput, input => {
-  return 0;
-});
-
+export const partTwo = pipe(parseInput, input =>
+  input.reduce(
+    (acc, _, index) =>
+      acc +
+      Number(
+        index >= 3 &&
+          input[index] + input[index - 1] + input[index - 2] >
+            input[index - 1] + input[index - 2] + input[index - 3],
+      ),
+    0,
+  ),
+);
