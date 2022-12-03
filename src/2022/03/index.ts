@@ -28,7 +28,7 @@ export const partTwo: SolutionFunction = pipe(
   parseInput,
   input =>
     chunk(input, 3)
-      .map((group: string[][]) => {
+      .map(group => {
         const elves = group.map(elf => elf.join(''));
         return elves[0]
           .split('')
