@@ -4,7 +4,7 @@ const axios = require('axios');
 const { promises: fs } = require('fs');
 const path = require('path');
 
-const fetchInput = async ({ year, day }) => {
+const generateInput = async ({ year, day }) => {
   const { data } = await axios.get(
     `https://adventofcode.com/${year}/day/${Number(day)}/input`,
     {
