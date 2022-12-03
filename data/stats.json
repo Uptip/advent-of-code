@@ -215,7 +215,8 @@
   "2017": {},
   "2016": {
     "1": {
-      "partOneTime": ">24h"
+      "partOneTime": ">24h",
+      "partTwoTime": ">24h"
     }
   },
   "2015": {
