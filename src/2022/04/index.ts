@@ -9,22 +9,22 @@ export const parseInput = (input: string) =>
     };
   });
 
-export const partOne = pipe(
-  parseInput,
-  input =>
-    input
-      .map(
-        ({ elf1, elf2 }) =>
-          (elf1.to >= elf2.to && elf1.from <= elf2.from) ||
+export const partOne = pipe(parseInput, input =>
+  input.reduce(
+    (total, { elf1, elf2 }) =>
+      total +
+      Number(
+        (elf1.to >= elf2.to && elf1.from <= elf2.from) ||
           (elf1.to <= elf2.to && elf1.from >= elf2.from),
-      )
-      .filter(Boolean).length,
+      ),
+    0,
+  ),
 );
 
-export const partTwo = pipe(
-  parseInput,
-  input =>
-    input
-      .map(({ elf1, elf2 }) => elf1.from <= elf2.to && elf1.to >= elf2.from)
-      .filter(Boolean).length,
+export const partTwo = pipe(parseInput, input =>
+  input.reduce(
+    (total, { elf1, elf2 }) =>
+      total + Number(elf1.from <= elf2.to && elf1.to >= elf2.from),
+    0,
+  ),
 );
