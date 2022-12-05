@@ -36,32 +36,33 @@ export const parseInput = (
   return { initialState, moves };
 };
 
+const getTopCranes = (values: { [key: string]: string[] }) =>
+  Object.values(values)
+    .map(arr => arr[arr.length - 1])
+    .join('');
+
 export const partOne = pipe(
   parseInput,
   ({ initialState, moves }) =>
     moves.reduce((state, { quantity, from, to }) => {
       times(quantity).forEach(() => {
-        state[to].push(state[from][state[from].length - 1]);
-        state[from].pop();
+        state[to].push(state[from].pop());
       });
       return state;
     }, initialState),
-  values =>
-    Object.values(values)
-      .map(arr => arr[arr.length - 1])
-      .join(''),
+  getTopCranes,
 );
 
 export const partTwo = pipe(
   parseInput,
   ({ initialState, moves }) =>
-    moves.reduce((state, { quantity, from, to }) => {
-      state[to] = [...state[to], ...state[from].slice(-quantity)];
-      state[from] = state[from].slice(0, -quantity);
-      return state;
-    }, initialState),
-  values =>
-    Object.values(values)
-      .map(arr => arr[arr.length - 1])
-      .join(''),
+    moves.reduce(
+      (state, { quantity, from, to }) => ({
+        ...state,
+        [to]: [...state[to], ...state[from].slice(-quantity)],
+        [from]: state[from].slice(0, -quantity),
+      }),
+      initialState,
+    ),
+  getTopCranes,
 );
