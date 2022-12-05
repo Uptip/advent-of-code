@@ -1,5 +1,4 @@
-import { times } from 'lodash';
-import { pipe } from 'ramda';
+import { last, pipe, times } from 'ramda';
 
 export const parseInput = (
   input: string,
@@ -10,14 +9,14 @@ export const parseInput = (
   const source = input.split('\n\n')[0].split('\n').slice(0, -1);
   let initialState = {};
 
-  times((source[0].length + 1) / 4).forEach(i => {
-    times(source.length).map(j => {
+  times(i => {
+    times(j => {
       initialState[i + 1] = [
         source[j][4 * i + 1],
         ...(initialState[i + 1] || []),
       ].filter(crate => crate !== ' ');
-    });
-  });
+    }, source.length);
+  }, (source[0].length + 1) / 4);
 
   const moves = input
     .split('\n\n')[1]
@@ -36,18 +35,16 @@ export const parseInput = (
   return { initialState, moves };
 };
 
-const getTopCranes = (values: { [key: string]: string[] }) =>
-  Object.values(values)
-    .map(arr => arr[arr.length - 1])
-    .join('');
+const getTopCranes = (state: { [key: string]: string[] }) =>
+  Object.values(state).map(last).join('');
 
 export const partOne = pipe(
   parseInput,
   ({ initialState, moves }) =>
     moves.reduce((state, { quantity, from, to }) => {
-      times(quantity).forEach(() => {
+      times(() => {
         state[to].push(state[from].pop());
-      });
+      }, quantity);
       return state;
     }, initialState),
   getTopCranes,
