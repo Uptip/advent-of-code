@@ -4,8 +4,11 @@ export const parseInput = (input: string) => input.split('');
 
 const getMarker = (input: string[], size: number) => {
   for (let i = 0; i < input.length; i++) {
-    let output = new Set([...times(j => input[i - j], size)].filter(Boolean));
-    if (output.size === size) return i + 1;
+    if (
+      new Set([...times(j => input[i - j], size)].filter(Boolean)).size === size
+    ) {
+      return i + 1;
+    }
   }
 };
 
