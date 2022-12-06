@@ -5,6 +5,8 @@ import { pipe } from 'ramda';
 
 export const parseInput = (input: string) => input.split('\n');
 
+export const example = ``;
+
 export const partOne = pipe(parseInput, input => {
   return 0;
 });

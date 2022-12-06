@@ -27,15 +27,14 @@ const launch = async () => {
   try {
     const loadedFile = require(`../src/${year}/${day}/index.ts`);
 
-    const { partOne, partTwo } = loadedFile;
+    const { partOne, partTwo, example } = loadedFile;
 
-    if (process.env.NODE_ENV !== 'test') {
-      run({
-        pathToInput: `${year}/${day}/input.txt`,
-        partOne,
-        partTwo,
-      });
-    }
+    run({
+      pathToInput: `${year}/${day}/input.txt`,
+      partOne,
+      partTwo,
+      example,
+    });
   } catch (err) {
     if (err.code === 'MODULE_NOT_FOUND') {
       console.log(``);

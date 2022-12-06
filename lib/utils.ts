@@ -19,10 +19,12 @@ export const run = async ({
   pathToInput,
   partOne,
   partTwo,
+  example,
 }: {
   pathToInput: string;
   partOne: (input: string) => number;
   partTwo: (input: string) => number;
+  example?: string;
 }): Promise<void> => {
   const fileContent = await loadFile(pathToInput);
 
@@ -30,13 +32,19 @@ export const run = async ({
 
   console.time(`\x1b[2mPart one time\x1b[0m`);
   console.log(``);
-  console.log(`🎄 Answer one is \x1b[32m`, partOne(fileContent), '\x1b[0m');
+  if (example?.trim()) {
+    console.log(`🎄 Example 1 output is \x1b[32m`, partOne(example), '\x1b[0m');
+  }
+  console.log(`🎄 Answer 1 is \x1b[32m`, partOne(fileContent), '\x1b[0m');
   console.timeEnd(`\x1b[2mPart one time\x1b[0m`);
 
   console.log(``);
 
   console.time(`\x1b[2mPart two time\x1b[0m`);
-  console.log(`🎄 Answer two is \x1b[32m`, partTwo(fileContent), '\x1b[0m');
+  if (example?.trim()) {
+    console.log(`🎄 Example 2 output is \x1b[32m`, partTwo(example), '\x1b[0m');
+  }
+  console.log(`🎄 Answer 2 is \x1b[32m`, partTwo(fileContent), '\x1b[0m');
   console.timeEnd(`\x1b[2mPart two time\x1b[0m`);
 
   console.log(``);
