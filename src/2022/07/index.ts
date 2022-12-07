@@ -52,8 +52,7 @@ const parseInput = (
 const calculateFolderSize = (tree: any, folder: string) =>
   Object.keys(tree)
     .filter(path => path.startsWith(folder))
-    .map(path => tree[path])
-    .reduce((acc, size) => acc + size, 0);
+    .reduce((acc, path) => acc + tree[path], 0);
 
 export const partOne = pipe(parseInput, ({ tree, folders }) =>
   [...folders].reduce((acc, folder) => {
@@ -70,14 +69,9 @@ export const partOne = pipe(parseInput, ({ tree, folders }) =>
 export const partTwo = pipe(parseInput, ({ tree, folders }) => {
   const neededSpace = 30000000 - (70000000 - sum(Object.values(tree)));
 
-  return [...folders]
-    .reduce(
-      (acc, folder) => [
-        ...acc,
-        { path: folder, size: calculateFolderSize(tree, folder) },
-      ],
-      [],
-    )
-    .filter(({ size }) => size >= neededSpace)
-    .sort((a, b) => a.size - b.size)[0].size;
+  return [...folders].reduce((acc, folder) => {
+    const size = calculateFolderSize(tree, folder);
+    if (size < neededSpace) return acc;
+    return Math.min(acc, size);
+  }, Infinity);
 });
