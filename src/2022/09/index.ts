@@ -5,7 +5,7 @@ export const parseInput = (input: string) =>
 
 const calculateRopeCoordinates = (direction: string, coordinates: string[]) => {
   coordinates.forEach((knot, index) => {
-    const [x, y] = knot.split(';').map(Number);
+    const [x1, y1] = knot.split(';').map(Number);
     const [x2, y2] = coordinates[index === 0 ? index : index - 1]
       .split(';')
       .map(Number);
@@ -13,23 +13,23 @@ const calculateRopeCoordinates = (direction: string, coordinates: string[]) => {
     if (index === 0) {
       switch (direction) {
         case 'R':
-          coordinates[index] = `${x + 1};${y}`;
+          coordinates[index] = `${x1 + 1};${y1}`;
           break;
         case 'L':
-          coordinates[index] = `${x - 1};${y}`;
+          coordinates[index] = `${x1 - 1};${y1}`;
           break;
         case 'U':
-          coordinates[index] = `${x};${y - 1}`;
+          coordinates[index] = `${x1};${y1 - 1}`;
           break;
         case 'D':
-          coordinates[index] = `${x};${y + 1}`;
+          coordinates[index] = `${x1};${y1 + 1}`;
           break;
       }
-    } else if (Math.abs(x - x2) > 1 || Math.abs(y - y2) > 1) {
-      let dx = x2 - x;
-      let dy = y2 - y;
-      let nextX = Number(x);
-      let nextY = Number(y);
+    } else if (Math.abs(x1 - x2) > 1 || Math.abs(y1 - y2) > 1) {
+      let dx = x2 - x1;
+      let dy = y2 - y1;
+      let nextX = Number(x1);
+      let nextY = Number(y1);
 
       if (Math.abs(dx) > 1) {
         nextX += dx > 0 ? 1 : -1;
