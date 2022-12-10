@@ -34,8 +34,9 @@ export const run = async ({
   console.log(``);
   if (example?.trim()) {
     console.log(`🎄 Example 1 output is \x1b[32m`, partOne(example), '\x1b[0m');
+  } else {
+    console.log(`🎄 Answer 1 is \x1b[32m`, partOne(fileContent), '\x1b[0m');
   }
-  console.log(`🎄 Answer 1 is \x1b[32m`, partOne(fileContent), '\x1b[0m');
   console.timeEnd(`\x1b[2mPart one time\x1b[0m`);
 
   console.log(``);
@@ -43,8 +44,9 @@ export const run = async ({
   console.time(`\x1b[2mPart two time\x1b[0m`);
   if (example?.trim()) {
     console.log(`🎄 Example 2 output is \x1b[32m`, partTwo(example), '\x1b[0m');
+  } else {
+    console.log(`🎄 Answer 2 is \x1b[32m`, partTwo(fileContent), '\x1b[0m');
   }
-  console.log(`🎄 Answer 2 is \x1b[32m`, partTwo(fileContent), '\x1b[0m');
   console.timeEnd(`\x1b[2mPart two time\x1b[0m`);
 
   console.log(``);
