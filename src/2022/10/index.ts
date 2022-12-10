@@ -25,6 +25,7 @@ const compute = (input: [string, number][]) =>
       if ((nextValue.cycle - 20) % 40 === 0) {
         nextValue.readings.push(nextValue.cycle * last(nextValue.values));
       }
+
       return nextValue;
     },
     { cycle: 0, values: [1], readings: [] },
@@ -41,14 +42,14 @@ export const partTwo = pipe(
   parseInput,
   compute,
   ({ values }) =>
-    range(-1, values.length - 2).reduce(
+    range(0, values.length - 1).reduce(
       (acc, sprite) => [
         ...acc,
         [(sprite - 1) % 40, sprite % 40, (sprite + 1) % 40].includes(
           values[sprite],
         )
-          ? '#'
-          : '.',
+          ? '•'
+          : ' ',
       ],
       [],
     ),
