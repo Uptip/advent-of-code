@@ -49,7 +49,7 @@ export const partTwo = pipe(
         [(sprite % 40) - 1, sprite % 40, (sprite + 1) % 40].includes(
           values[sprite],
         )
-          ? emoji.get('gift')
+          ? emoji.get('cookie')
           : '  ',
       ],
       [],
