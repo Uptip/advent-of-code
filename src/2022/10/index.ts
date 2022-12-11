@@ -1,5 +1,6 @@
 import { chunk } from 'lodash';
-import { last, pipe, range, times } from 'ramda';
+import { last, pipe, range } from 'ramda';
+import emoji from 'node-emoji';
 
 export const parseInput = (input: string): [string, number][] =>
   input.split('\n').map(line => {
@@ -45,17 +46,18 @@ export const partTwo = pipe(
     range(0, values.length - 1).reduce(
       (acc, sprite) => [
         ...acc,
-        [(sprite - 1) % 40, sprite % 40, (sprite + 1) % 40].includes(
+        [(sprite % 40) - 1, sprite % 40, (sprite + 1) % 40].includes(
           values[sprite],
         )
-          ? '•'
-          : ' ',
+          ? emoji.get('gift')
+          : '  ',
       ],
       [],
     ),
   pixels =>
-    '\n' +
+    '\n\n' +
     chunk(pixels, 40)
       .map(line => line.join(''))
-      .join('\n'),
+      .join('\n') +
+    '\n\n',
 );
