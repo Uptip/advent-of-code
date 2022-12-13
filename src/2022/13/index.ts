@@ -51,10 +51,7 @@ export const partTwo = pipe(
     input
       .sort((left, right) => {
         const result = compare(left, right);
-        if (result !== undefined) {
-          return result ? -1 : 1;
-        }
-        return 0;
+        return result !== undefined ? (result ? -1 : 1) : 0;
       })
       .map(line => JSON.stringify(line)),
   sorted => (sorted.indexOf('[[2]]') + 1) * (sorted.indexOf('[[6]]') + 1),
