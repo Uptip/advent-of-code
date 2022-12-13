@@ -75,11 +75,7 @@ export const partTwo = pipe(
     Object.entries(alg.dijkstra(graph, endCoordinates)).reduce(
       (shortest, [coordinates, { distance }]) => {
         const [x, y] = coordinates.split(',').map(Number);
-
-        if (input[y][x] !== 'a') {
-          return shortest;
-        }
-        return Math.min(shortest, distance);
+        return Math.min(shortest, input[y][x] !== 'a' ? Infinity : distance);
       },
       Infinity,
     ),
