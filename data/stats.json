@@ -280,7 +280,12 @@
       "partTwoTime": ">24h"
     }
   },
-  "2017": {},
+  "2017": {
+    "1": {
+      "partOneTime": ">24h",
+      "partTwoTime": ">24h"
+    }
+  },
   "2016": {
     "1": {
       "partOneTime": ">24h",
