@@ -281,6 +281,10 @@
     }
   },
   "2017": {
+    "5": {
+      "partOneTime": ">24h",
+      "partTwoTime": ">24h"
+    },
     "4": {
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
