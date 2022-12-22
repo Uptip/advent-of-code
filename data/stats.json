@@ -1,5 +1,8 @@
 {
   "2022": {
+    "22": {
+      "partOneTime": "03:58:50"
+    },
     "21": {
       "partOneTime": "02:31:18",
       "partTwoTime": "03:00:40"
@@ -7,6 +10,10 @@
     "20": {
       "partOneTime": "01:58:23",
       "partTwoTime": "02:19:49"
+    },
+    "19": {
+      "partOneTime": ">24h",
+      "partTwoTime": ">24h"
     },
     "18": {
       "partOneTime": "02:05:55",
