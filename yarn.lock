@@ -496,6 +496,11 @@ fill-range@^7.0.1:
   dependencies:
     to-regex-range "^5.0.1"
 
+find-dividers@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/find-dividers/-/find-dividers-1.0.4.tgz#323d20aefbb01967385974a349975d1203d79c62"
+  integrity sha512-7+CdLZKgop/w79KqwF1tM5FSUlS4Dzv2jgIYUpuEgqk3qKSeBOEGeUYL6Ktcr/47t8E+oMMjrvXgcbDxpqH+fg==
+
 follow-redirects@^1.15.0:
   version "1.15.2"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.2.tgz#b460864144ba63f2681096f274c4e57026da2c13"

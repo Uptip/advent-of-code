@@ -322,6 +322,10 @@
     }
   },
   "2015": {
+    "20": {
+      "partOneTime": ">24h",
+      "partTwoTime": ">24h"
+    },
     "19": {
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
