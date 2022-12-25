@@ -2,13 +2,14 @@ import { pipe } from 'ramda';
 
 export const parseInput = (input: string) => input.split('\n');
 
-const conversion = { '=': -2, '-': -1, '0': 0, '1': 1, '2': 2 };
-
 const snafuToDecimal = (snafu: string) =>
   snafu
     .split('')
     .reverse()
-    .reduce((total, curr, index) => total + 5 ** index * conversion[curr], 0);
+    .reduce(
+      (total, curr, index) => total + 5 ** index * ('=-012'.indexOf(curr) - 2),
+      0,
+    );
 
 const decimalToSnafu = (decimal: number) => {
   const digits = [];
@@ -26,7 +27,4 @@ export const partOne = pipe(
   decimalToSnafu,
 );
 
-export const partTwo = pipe(
-  parseInput,
-  () => 'Merry Christmas, you filthy animal!',
-);
+export const partTwo = () => 'Merry Christmas, you filthy animal!';
