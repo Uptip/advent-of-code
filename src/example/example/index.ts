@@ -3,7 +3,6 @@
 // https://adventofcode.com/2021/day/1
 
 import { pipe } from 'ramda';
-import { SolutionFunction } from '../../types';
 
 // --- Part Zero ---
 // This function parses the input into a list of numbers
@@ -79,7 +78,7 @@ export const parseInput = (input: string): number[] =>
 //
 // Your puzzle answer was 1482.
 
-export const partOne: SolutionFunction = pipe(parseInput, input =>
+export const partOne = pipe(parseInput, input =>
   input.reduce(
     (acc, _, index) =>
       acc + Number(index >= 1 && input[index] > input[index - 1]),

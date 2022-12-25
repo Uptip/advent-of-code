@@ -25,7 +25,7 @@ const generateInput = async ({ year, day }) => {
       __dirname,
       `../../../src/${year}/${day.padStart(2, '0')}/input.txt`,
     ),
-    data.trim(),
+    `${data}`.trim(),
   );
 };
 
