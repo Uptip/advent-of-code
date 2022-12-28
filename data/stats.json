@@ -102,8 +102,13 @@
     }
   },
   "2021": {
+    "23": {
+      "partOneTime": ">24h",
+      "partTwotime": ">24h"
+    },
     "22": {
-      "partOneTime": "15:14:36"
+      "partOneTime": "15:14:36",
+      "partTwoTime": ">24h"
     },
     "21": {
       "partOneTime": ">24h"
