@@ -117,6 +117,10 @@
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
     },
+    "19": {
+      "partOneTime": ">24h",
+      "partTwoTime": ">24h"
+    },
     "18": {
       "partOneTime": "04:46:29",
       "partTwoTime": "14:14:41"
