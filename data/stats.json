@@ -337,6 +337,10 @@
     }
   },
   "2016": {
+    "7": {
+      "partOneTime": ">24h",
+      "partTwoTime": ">24h"
+    },
     "6": {
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
