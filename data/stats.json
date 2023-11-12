@@ -301,6 +301,10 @@
     }
   },
   "2018": {
+    "4": {
+      "partOneTime": ">24h",
+      "partTwoTime": ">24h"
+    },
     "3": {
       "partOneTime": ">24h",
       "partTwoTime": ">24h"
