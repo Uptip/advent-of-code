@@ -15,8 +15,8 @@
   "scripts": {
     "generate": "hygen day new",
     "complete": "hygen day complete",
-    "start": "ts-node-dev --quiet lib/index.ts",
-    "dev": "ts-node-dev --quiet --respawn lib/index.ts"
+    "start": "bun lib/index.ts",
+    "dev": "bun --hot lib/index.ts"
   },
   "dependencies": {
     "@types/md5": "^2.3.2",
