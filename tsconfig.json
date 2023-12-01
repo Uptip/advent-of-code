@@ -3,8 +3,16 @@
     "target": "es2019",
     "allowJs": true,
     "strict": false,
-    "lib": ["es2019", "es2020.promise", "es2020.bigint", "es2020.string"],
-    "esModuleInterop": true
+    "lib": [
+      "es2019",
+      "es2020.promise",
+      "es2020.bigint",
+      "es2020.string",
+      "es2021"
+    ],
+    "esModuleInterop": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext"
   },
   "include": ["src"],
   "exclude": ["node_modules", "src/**/*.test.ts", "src/**/*.temp.ts"],

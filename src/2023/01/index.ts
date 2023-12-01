@@ -1,4 +1,11 @@
-import { pipe } from 'ramda';
+import * as R from 'remeda';
+import fs from 'fs';
+import path from 'path';
+
+const example = ``;
+
+const input =
+  example || fs.readFileSync(path.join(__dirname, 'input.txt'), 'utf-8');
 
 export const parseInput = (input: string) => input.split('\n');
 
@@ -10,9 +17,10 @@ const calculateCalibrationValue = (input: ReturnType<typeof parseInput>) =>
     })
     .reduce((acc, curr) => acc + curr, 0);
 
-export const partOne = pipe(parseInput, calculateCalibrationValue);
+export const partOne = R.pipe(input, parseInput, calculateCalibrationValue);
 
-export const partTwo = pipe(
+export const partTwo = R.pipe(
+  input,
   parseInput,
   input =>
     input.map(line =>

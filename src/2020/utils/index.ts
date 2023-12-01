@@ -33,19 +33,23 @@ export const run = async ({
   const fileContent = await loadFile(pathToInput);
   const input = formatInput(fileContent);
 
-  console.time(`Total time${suffix}`);
+  try {
+    console.time(`Total time${suffix}`);
 
-  console.time(`Part one time${suffix}`);
-  console.log(`Answer one${suffix} is`, partOne(input));
-  console.timeEnd(`Part one time${suffix}`);
+    console.time(`Part one time${suffix}`);
+    console.log(`Answer one${suffix} is`, partOne(input));
+    console.timeEnd(`Part one time${suffix}`);
 
-  console.log(`—`);
+    console.log(`—`);
 
-  console.time(`Part two time${suffix}`);
-  console.log(`Answer two${suffix} is`, partTwo(input));
-  console.timeEnd(`Part two time${suffix}`);
+    console.time(`Part two time${suffix}`);
+    console.log(`Answer two${suffix} is`, partTwo(input));
+    console.timeEnd(`Part two time${suffix}`);
 
-  console.log(`—`);
-  console.timeEnd(`Total time${suffix}`);
-  console.log(`\n`);
+    console.log(`—`);
+    console.timeEnd(`Total time${suffix}`);
+    console.log(`\n`);
+  } catch (err) {
+    console.error(err);
+  }
 };
