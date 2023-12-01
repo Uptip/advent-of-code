@@ -22,7 +22,6 @@ const parseInput = (input: string) =>
         /^-+?Part 1-+? -+?Part 2-+? Day Time Rank Score Time Rank Score /,
         '',
       )
-
       .match(/(.*?\s){7}/g) || []
   )
     .map(day => day.trim())
@@ -45,6 +44,7 @@ const run = async () => {
   const data2020 = await request(options(2020));
   const data2021 = await request(options(2021));
   const data2022 = await request(options(2022));
+  const data2023 = await request(options(2023));
 
   await fs.writeFile(
     path.join(__dirname, '../data/stats.json'),
@@ -58,6 +58,7 @@ const run = async () => {
         2020: parseInput(data2020),
         2021: parseInput(data2021),
         2022: parseInput(data2022),
+        2023: parseInput(data2022),
       },
       null,
       2,

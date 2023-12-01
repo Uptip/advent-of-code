@@ -2,19 +2,19 @@ import { pipe } from 'ramda';
 
 export const parseInput = (input: string) => input.split('\n');
 
-export const example = ``;
-
-export const partOne = pipe(parseInput, input => {
-  return input
+const calculateCalibrationValue = (input: ReturnType<typeof parseInput>) =>
+  input
     .map(line => line.replace(/\D/g, ''))
     .map(line => `${line[0]}${line[line.length - 1]}`)
     .map(Number)
     .reduce((acc, curr) => acc + curr, 0);
-});
 
-export const partTwo = pipe(parseInput, input => {
-  return input
-    .map(line =>
+export const partOne = pipe(parseInput, calculateCalibrationValue);
+
+export const partTwo = pipe(
+  parseInput,
+  input =>
+    input.map(line =>
       line
         .replace(/(one)/g, '$11$1')
         .replace(/(two)/g, '$12$1')
@@ -25,9 +25,6 @@ export const partTwo = pipe(parseInput, input => {
         .replace(/(seven)/g, '$17$1')
         .replace(/(eight)/g, '$18$1')
         .replace(/(nine)/g, '$19$1'),
-    )
-    .map(line => line.replace(/\D/g, ''))
-    .map(line => `${line[0]}${line[line.length - 1]}`)
-    .map(Number)
-    .reduce((acc, curr) => acc + curr, 0);
-});
+    ),
+  calculateCalibrationValue,
+);
