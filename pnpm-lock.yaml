@@ -44,6 +44,9 @@ dependencies:
   ramda:
     specifier: ^0.28.0
     version: 0.28.0
+  remeda:
+    specifier: ^1.29.0
+    version: 1.29.0
   request:
     specifier: ^2.88.2
     version: 2.88.2
@@ -1130,6 +1133,10 @@ packages:
     dependencies:
       picomatch: 2.3.1
     dev: true
+
+  /remeda@1.29.0:
+    resolution: {integrity: sha512-M3LQ14KtMdQ1879lj/kKji3zBk158s7Rwg963mEkTfQFMxnKrIEAMxJfo/+0sp/+uGgN/KMVU2MBA4LNjqf8YQ==}
+    dev: false
 
   /request-promise-core@1.1.4(request@2.88.2):
     resolution: {integrity: sha512-TTbAfBBRdWD7aNNOoVOBH4pN/KigV6LyapYNNlAPA8JwbovRti1E88m3sYAwsLi5ryhPKsE9APwnjFTgdUjTpw==}
