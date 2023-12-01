@@ -4,9 +4,10 @@ export const parseInput = (input: string) => input.split('\n');
 
 const calculateCalibrationValue = (input: ReturnType<typeof parseInput>) =>
   input
-    .map(line => line.replace(/\D/g, ''))
-    .map(line => `${line[0]}${line[line.length - 1]}`)
-    .map(Number)
+    .map(line => {
+      const digits = line.replace(/\D/g, '');
+      return Number(`${digits.at(0)}${digits.at(-1)}`);
+    })
     .reduce((acc, curr) => acc + curr, 0);
 
 export const partOne = pipe(parseInput, calculateCalibrationValue);
