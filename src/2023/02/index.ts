@@ -1,30 +1,31 @@
-import * as R from 'remeda';
 import fs from 'fs';
 import path from 'path';
 
-const input = fs.readFileSync(path.join(__dirname, 'input.txt'), 'utf-8');
+export function parseInput(filename = 'input.txt') {
+  const input = fs
+    .readFileSync(path.join(__dirname, filename), 'utf-8')
+    .trim()
+    .split('\n');
 
-export const parseInput = (input: string) => {
-  let output: { [id: string]: { [color: string]: number }[] } = {};
-
-  input.split('\n').forEach(line => {
+  return input.reduce((acc, line) => {
     const gameRegex = /Game\s(\d+):/g;
     const gameId = gameRegex.exec(line)[1];
     const chunks = line.split(': ')[1].split('; ');
 
-    output[gameId] = chunks.map(chunk => {
+    acc[gameId] = chunks.map(chunk => {
       return chunk.split(', ').reduce((acc, item) => {
         const [count, color] = item.split(' ');
         acc[color] = Number(count);
         return acc;
       }, {} as { [color: string]: number });
     });
-  });
 
-  return output;
-};
+    return acc;
+  }, {} as { [id: string]: { [color: string]: number }[] });
+}
 
-export const partOne = R.pipe(input, parseInput, games => {
+export function partOne(filename?: string) {
+  const games = parseInput(filename);
   const instructions = {
     blue: 14,
     green: 13,
@@ -44,9 +45,11 @@ export const partOne = R.pipe(input, parseInput, games => {
 
     return acc + Number(id);
   }, 0);
-});
+}
 
-export const partTwo = R.pipe(input, parseInput, games => {
+export function partTwo(filename?: string) {
+  const games = parseInput(filename);
+
   return Object.entries(games).reduce((acc, [_, game]) => {
     const { red, green, blue } = game.reduce(
       (acc, set) => {
@@ -61,4 +64,23 @@ export const partTwo = R.pipe(input, parseInput, games => {
 
     return acc + red * green * blue;
   }, 0);
-});
+}
+
+console.log(
+  `\n╓────────────────────╖`,
+  '\n║   \x1b[1m🎄 Part one 🎄\x1b[0m   ║',
+  `\n╙────────────────────╜`,
+  '\n\x1b[34mExample\x1b[0m',
+  `\n${partOne('example.txt')}\n`,
+  `\n\x1b[34mInput\x1b[0m`,
+  `\n\x1b[1m\x1b[32m${partOne()}\x1b[0m`,
+  '\n',
+  `\n╓────────────────────╖`,
+  '\n║ \x1b[1m🎄🎄 Part two 🎄🎄\x1b[0m ║',
+  `\n╙────────────────────╜`,
+  '\n\x1b[34mExample\x1b[0m',
+  `\n${partTwo('example.txt')}\n`,
+  `\n\x1b[34mInput\x1b[0m`,
+  `\n\x1b[1m\x1b[32m${partTwo()}\x1b[0m`,
+  '\n',
+);
