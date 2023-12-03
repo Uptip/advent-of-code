@@ -25,11 +25,7 @@ const launch = async () => {
   year = process.argv[yearArgIndex + 1] ?? `${new Date().getFullYear()}`;
 
   try {
-    const loadedFile = await import(`../src/${year}/${day}/index.ts`);
-
-    const { partOne, partTwo, example } = loadedFile;
-
-    run({ partOne, partTwo });
+    await import(`../src/${year}/${day}/index.ts`);
   } catch (err) {
     if (err.code === 'MODULE_NOT_FOUND') {
       console.log(``);
@@ -37,6 +33,8 @@ const launch = async () => {
       console.log(
         `   Try running \x1b[34mpnpm generate\x1b[0m, and start again`,
       );
+    } else {
+      throw err;
     }
   }
 };
