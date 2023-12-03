@@ -8,7 +8,7 @@ My advent of code resolutions through the years
   <img src="https://advent-of-tiles.vercel.app/api/og?year=2023&day=1" width="112px">
 </a>
 <a href="src/2023/02/index.ts">
-  <img src="https://advent-of-tiles.vercel.app/api/og?year=2023&day=2" width="112px">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2023&day=2&foo=bar" width="112px">
 </a>
 <a href="src/2023/03/index.ts">
   <img src="https://advent-of-tiles.vercel.app/api/og?year=2023&day=3" width="112px">
