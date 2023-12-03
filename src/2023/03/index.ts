@@ -7,8 +7,17 @@ const input = fs.readFileSync(path.join(__dirname, 'input.txt'), 'utf-8');
 export const parseInput = (input: string) => {
   let parsed = input.split('\n');
 
-  let numberCoordinates = [];
-  let symbolCoordinates = [];
+  let numberCoordinates: {
+    number: number;
+    startX: number;
+    endX: number;
+    y: number;
+  }[] = [];
+  let symbolCoordinates: {
+    symbol: string;
+    x: number;
+    y: number;
+  }[] = [];
 
   for (let y = 0; y < parsed.length; y++) {
     for (let x = 0; x < parsed[y].length; x++) {
