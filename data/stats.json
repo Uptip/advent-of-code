@@ -2,15 +2,27 @@
   "2023": {
     "1": {
       "partOneTime": "00:03:36",
-      "partTwoTime": "00:08:38"
+      "partTwoTime": "00:08:38",
+      "partOneRank": 1064,
+      "partTwoRank": 221
     },
     "2": {
       "partOneTime": "00:22:14",
-      "partTwoTime": "00:28:21"
+      "partTwoTime": "00:28:21",
+      "partOneRank": 5035,
+      "partTwoRank": 4814
     },
     "3": {
       "partOneTime": "00:28:03",
-      "partTwoTime": "00:29:41"
+      "partTwoTime": "00:29:41",
+      "partOneRank": 2789,
+      "partTwoRank": 1385
+    },
+    "4": {
+      "partOneTime": "00:20:53",
+      "partTwoTime": "00:32:40",
+      "partOneRank": 7742,
+      "partTwoRank": 4911
     }
   },
   "2022": {

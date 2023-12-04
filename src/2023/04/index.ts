@@ -12,36 +12,28 @@ export const parseInput = (filename = 'input.txt') => {
         .split(' | ')
         .map(numbers => numbers.split(' ').map(Number).filter(Boolean));
 
-      return {
-        winningNumbers,
-        ownedNumbers,
-        ownedWinningNumbers: ownedNumbers.filter(ownedNumber =>
-          winningNumbers.includes(ownedNumber),
-        ),
-      };
+      return ownedNumbers.filter(ownedNumber =>
+        winningNumbers.includes(ownedNumber),
+      );
     });
 };
 
 export function partOne(filename?: string) {
-  return parseInput(filename).reduce(
-    (acc, { ownedWinningNumbers }) =>
-      acc +
-      (ownedWinningNumbers.length > 0
-        ? 2 ** (ownedWinningNumbers.length - 1)
-        : 0),
-    0,
-  );
+  return parseInput(filename).reduce((acc, ownedWinningNumbers) => {
+    if (ownedWinningNumbers.length === 0) return acc;
+    return acc + 2 ** (ownedWinningNumbers.length - 1);
+  }, 0);
 }
 
 export function partTwo(filename?: string) {
   const cards = parseInput(filename);
   const copies = Array(cards.length).fill(1);
 
-  cards.forEach(({ ownedWinningNumbers }, cardIndex) => {
-    for (let index = 0; index < ownedWinningNumbers.length; index++) {
-      copies[index + cardIndex + 1] += copies[cardIndex];
+  cards.forEach((ownedWinningNumbers, cardIndex) => {
+    for (let i = 0; i < ownedWinningNumbers.length; i++) {
+      copies[cardIndex + i + 1] += copies[cardIndex];
     }
-  }, 0);
+  });
 
   return copies.reduce((acc, curr) => acc + curr, 0);
 }

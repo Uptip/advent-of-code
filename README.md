@@ -13,6 +13,9 @@ My advent of code resolutions through the years
 <a href="src/2023/03/index.ts">
   <img src="https://advent-of-tiles.vercel.app/api/og?year=2023&day=3" width="112px">
 </a>
+<a href="src/2023/04/index.ts">
+  <img src="https://advent-of-tiles.vercel.app/api/og?year=2023&day=4" width="112px">
+</a>
 
 
 ## 2022
