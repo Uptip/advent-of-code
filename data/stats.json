@@ -23,6 +23,18 @@
       "partTwoTime": "00:32:40",
       "partOneRank": 7742,
       "partTwoRank": 4911
+    },
+    "6": {
+      "partOneTime": ">24h",
+      "partTwoTime": ">24h",
+      "partOneRank": 70022,
+      "partTwoRank": 68985
+    },
+    "8": {
+      "partOneTime": "02:30:25",
+      "partTwoTime": "02:44:09",
+      "partOneRank": 17697,
+      "partTwoRank": 10810
     }
   },
   "2022": {
